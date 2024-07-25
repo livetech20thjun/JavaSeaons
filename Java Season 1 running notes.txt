@@ -1,0 +1,515 @@
+Java :
+
+1996 
+
+Features of Java : 
+
+1) Simple 
+
++  - * / %
+
+2 + 5 = 7
+
+2 + 5 = 32
+
+2) OO (Object oriented )
+Object
+Class
+i) Encapsulation
+ii) POlymorphism
+iii) Inheritence
+iv) Abstraction
+
+3) Robust 
+4) Secure 
+5) Platform Indepenedent 
+paltform means OS 
+6) Architectural Neutral 
+
+Architecture means Microprocessor and RAM 
+
+7) Portable 
+ 
+Portable means Architecture 
+
+
+WORA Write Once Run Anywhere
+
+---------------------------------------------------------
+jdk installation :
+
+Java 22  is latest 
+
+java 11 is the most popular and stable 
+
+????????????????????????????????????????????????????????
+Assignment -1 
+
+download jdk 11 and take screenshot of below location 
+
+C:\Program Files\Java\jdk-11
+
+and send screenshot to below email id
+
+riyazsirnotes@gmail.com
+
+????????????????????????????????????????????????????????? 
+
+
+Configuration of java or jdk 
+
+C:\Users\Riyaz>java -version
+java version "11.0.24" 2024-07-16 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.24+7-LTS-271)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.24+7-LTS-271, mixed mode)
+
+????????????????????????????????????????????????????????
+Assignment -2 
+
+configure java using 
+
+JAVA_HOME  
+
+path variables  and open command prompt give below command
+
+java -verison
+
+and send screenshot to below email id
+
+riyazsirnotes@gmail.com
+
+?????????????????????????????????????????????????????????????
+
+								jdk folders
+								
+								
+								
+			lib						bin/tools				jre/jmods 
+
+
+Lib : Library is a set of predefined stuff or pgrams used for app development		
+
+	
+								
+							lib (API)
+							 |
+							jars  (~ Zip folders)
+							  |
+							packages (~ folders)
+							   |
+			    ---------------------------------------
+			    |									   |
+		Classes										Interfaces
+		    |
+	-----------------						-------------------------
+	|				 |					    |                        |
+	Variables		Methods				Constants/Fields			 Abstract MEthods
+								
+								
+bin/tools :
+
+these are application or commands to maintain the programs 		
+
+javac 		-> to compile a java program				
+	
+syntax :
+
+javac ClassName.java 
+
+
+java   -> to run java program 
+
+syntax :
+
+java ClassName
+
+--------------------------------------
+jre (Java Runtime Environment)
+
+							jvm (java virtual machine)
+							 |
+		    ------------------------------------------
+			|					|					   |
+			CLSS               EE 					  GC 
+								|
+							--------------
+							|			  |
+						Interpreter		JIT 
+										compile 
+
+CLSS - Class Loader Subsystem 
+- Loading
+- Linking
+- Initialization
+
+EE - Execution Engine 
+	
+Interpreter --> BC to machine understandable code 
+JIT compiler --> Just in time compiler 
+
+GC : Garbage collector 
+
+Mark  - will identify the objects/varibale etc to be deallocated
+
+Sweep  - will do deallocation of per MArk request 
+
+--------------------------------------------------------------
+Structure of JAVA Program
+---------------------------------------------------------------	
+1. Documentation Section
+2. Package Section
+3. Import Section
+4. Class or Interface Section
+
+						
+1. Documentation Section 
+
+comments 
+
+single line comment // 
+
+multi line comments
+
+/* ljklkjkl
+kjhkjhjkhjk
+kjhkjhjkhh 
+*/
+
+2. package section
+
+package means similar to folders
+
+syntax
+
+package packagename;
+
+3. import section
+
+
+import package.*; ==> not prefered
+
+import java.util.*;
+
+import packagename.ClassName; ==> most prefered (Readability)
+
+4. Class/Interface 
+
+syntax : 
+
+access-specifier access-modifier class ClassName
+{
+
+//variables
+
+//methods 
+
+
+}
+
+or
+
+access-specifier access-modifier interface InterfaceName
+{
+
+//Constants/Fields
+
+//Abstract Methods  
+
+
+}
+
+access-specifier : access label 
+
+public / private / protected / <default> or <unspecicifed>
+
+
+access-modifier :
+
+static / abstract / transient / volatile / <default> or <unspecicifed>
+
+
+
+-------------------------------------------------------------
+Naming Conventions in Java 
+--------------------------------------------------------------
+							
+						packages (~ folders)
+							   |
+			    ---------------------------------------
+			    |									   |
+		Classes										Interfaces
+		    |
+	-----------------						-------------------------
+	|				 |					    |                        |
+	Variables		Methods				Constants/Fields			 Abstract MEthods
+								
+															
+															
+packages : all lower case 
+
+java.util
+
+org.openqa.selenium
+
+regression 
+
+
+Classes / Interfaces : Title case 
+
+Scanner
+
+ChromeDriver 
+
+ValidateLogin 
+
+															
+Variables / methods / abstract methods :  LowerCase + UpperCase = CamelCase 
+
+						
+						
+int x 
+
+double netSalary 
+
+costOfItem
+
+						
+main(
+
+nextInt(
+
+println(
+
+Constants/Fields : All Upper case
+
+PI = 3.14
+
+MAX_LIMIT=10000				
+
+-----------------------------------------------------
+JAVA MEMORY BLOCKS
+-----------------------------------------------------
+
+4 Blocks :
+
+
+1. Class Area / Method Area 
+
+static variables , static methods , static blocks , .class files etc ..
+
+2. Heap Area (Dynamic Memory Allocation Area)
+
+Objects , Arrays etc ..
+
+3. Java Stack Area (JSA)
+
+local variables , expressions , current running logic 
+
+int x=10;
+
+int y=20
+
+s.o.p(x+y);							
+
+
+4. String Constant Pool Area (SCPA)
+
+only for String literal 
+
+String s="LiveTech";
+
+-------------------------------------------------------------
+Variables in Java 
+-------------------------------------------------------------
+
+						variables
+						
+						
+		local				instance 			static 
+
+syntax :
+
+access-specifier access-modifier datatype varibaleName = value; 
+		
+						
+access-specifier access-modifier datatype varibaleName; declaration
+
+varibaleName = value; assignment or initialization 
+					
+
+5 points to be remembered 
+
+1. definition 
+2. where memory is getting allocated
+3. when memory allocated 
+4. what is calling style
+5. Scope or life time 
+		
+						
+Local Variables :
+
+
+1. definition 
+
+variables which are declared inside a method 
+
+2. where memory is getting allocated
+
+Java Stack Area 
+
+3. when memory allocated 
+
+when  the method is called 
+
+4. what is calling style
+
+varibaleName itself
+
+5. Scope or life time 
+
+till the end of method 
+
+Note :
+
+local variables should be initilized ,
+it's programmer or developer responsibilty to initilize with some value .
+
+
+VariablesDemo1.java:13: error: variable b might not have been initialized
+System.out.println(b);
+                   ^
+1 error
+
+-------------------------------------------------
+instance  variables
+
+
+1. definition 
+
+variables which are declared inside a class but outside of method 
+
+2. where memory is getting allocated
+
+Heap Area 
+
+3. when memory allocated 
+
+when an object or instance of that class is created 
+
+4. what is calling style
+
+objectName.varibaleName
+
+5.  Scope or life time 
+
+till the last usage of the object 
+
+--------------------------------------------------------------------
+Static Variables
+
+1. definition 
+
+variables which are declared inside a class but outside of method and having keyword static 
+
+2. where memory is getting allocated
+
+Class Area / Method Area 
+
+3. when memory allocated 
+
+during .class file loading 
+
+4. what is calling style
+
+ClassName.varibaleName
+
+5. Scope or life time 
+
+till the end of program
+
+Note : 
+
+when should we declare variable as static ?
+
+when we have some data/value that is common and shared across 
+
+
+--------------------------------------------------
+IDE - Integrated Development Environment
+
+Eclipse / IntelliJ Idea / VS code / Net beans 
+
+how to download eclipse ?
+
+https://www.eclipse.org/downloads/
+
+click on Download Packages link 
+-> under "MORE DOWNLOADS"
+
+click on "Eclipse 2023-09 (4.29)"
+
+--> Eclipse IDE for Enterprise Java and Web Developers 
+click on Windows x86_64	
+
+????????????????????????????????????????????????????????
+Assignment -3
+
+complete the eclipse download and create a workspace 
+
+and send screenshot to below email id
+
+riyazsirnotes@gmail.com
+
+?????????????????????????????????????????????????????????????
+
+------------------------------------------------------
+Data Types in Java 
+------------------------------------------------------
+
+								Data Types
+						
+						
+						primitive (8)				non-primitive 
+						
+						
+	byte b=10;
+
+byte b=128;
+Type mismatch: cannot convert from int to byte
+short s=32768;
+Type mismatch: cannot convert from int to byte
+int x=2147483648;
+The literal 2147483648 of type int is out of range 
+
+	
+--------------------------------------------------------
+methods in Java 
+-------------------------------------------------------
+
+								Methods 
+								
+								
+				non-static						Static 	
+
+
+
+								Methods 
+								
+								
+				predefined						user-defined  					
+				
+Method :
+
+Set of instructions 
+
+to perform some particular 
+
+Advanatages :
+
+- reusabilty
+- code clarity
+- avoids code redundancy
+- length of the code decreases
+- easy debugging of programs 
+
+

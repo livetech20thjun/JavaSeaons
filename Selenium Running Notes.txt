@@ -1,0 +1,93 @@
+**************************************
+Selenium Season - 1
+**************************************
+
+https://www.selenium.dev/downloads/ 
+
+
+4.23.0 (July 19, 2024) --> latest version
+
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+how to add jar to a java project in eclipse ?
+
+
+
+
+Exception in thread "main" 
+java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.chrome.driver system property; for more information,
+ see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+IllegalStateException
+
+Reason : driver executable is not found 
+
+Solution : 
+download the  driver executable and set the system property
+
+webdriver.chrome.driver ==> chromedriver.exe path 
+
+3.141.59
+
+public class ChromeLaunch1 {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "D:\\010LiveTech\\jars\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		new ChromeDriver();
+
+	}
+
+}
+
+----------------------------------------------
+selenium-server-4.3.0.jar
+
+https://github.com/bonigarcia/webdrivermanager
+
+public class ChromeLaunch2 {
+
+	public static void main(String[] args) {
+		
+		WebDriverManager.chromedriver().setup();
+		new ChromeDriver();
+
+	}
+
+}
+
+-----------------------------------------------
+
+selenium-server-4.13.0.jar
+
+public class ChromeLaunch3 {
+
+	public static void main(String[] args) {
+		
+		new ChromeDriver();
+
+	}
+
+}
+
+??????????????????????????????????????????????????????
+Assignement -1 
+
+Use above 3 versions and launch 
+Firfox and Edge browsers
+
+and send email to below id 
+
+riyazsirnotes@gmail.com
+
+hint :
+
+for firefox --> geckodriver.exe 
+for edge --> msedgedriver.exe 
+
+?????????????????????????????????????????????????????????
