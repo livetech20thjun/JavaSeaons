@@ -633,3 +633,89 @@ Polymorphism
 Inheritence
 Abstraction
 
+
+Object : 
+
+def: 
+
+Object is anything that exists .
+or
+Instance of class 
+
+e.g Marker , fan , man , dog , bank account number etc ..
+
+3 Characteristics :
+
+State : data or attributes that represent an object (nothing but variables)
+
+for Marker : length 12 cm , shape = cyclindral , color=white
+
+for bankaccount : no of character or digits =13 
+
+
+Behaviour : actions or tasks that can be performed by an objects ( ntohing but methods )
+
+for Dog : eating , barking etc..
+
+for bankaccount : fund tranfers 
+
+
+Identity : is a unique id given by JVM to keep track of objects 
+
+---------------------------------------------------------------------------------
+
+Class : 
+
+class is blueprint or template from which yuo create an object.
+
+e.g 
+
+Animals 
+
+
+access-specifier access-modifier class ClassName
+{
+
+
+//variables
+
+//methods 
+
+
+}
+
+*********************************************
+Object creation techniques
+*********************************************
+
+1) using new operator 
+
+ClassName objectName=new ClassName();
+
+2) using static factory method 
+
+ClassName objectN=ClassName.methodName();
+
+3) using non-static factory method 
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.method();
+
+4) using clone method 
+
+
+
+5) using literals 
+
+ClassName objectName=value;
+
+String str="LiveTech";
+
+Integer i=10;
+
+6) using deserialization 
+
+no syntax used by JVM 
+
+
