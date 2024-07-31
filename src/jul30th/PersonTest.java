@@ -17,6 +17,7 @@ public class PersonTest {
 		System.out.println(p1.name);
 		System.out.println(p1.age);
 		System.out.println(p1.phone);
+		p1.greet();
 		
 		
 		Person p2=new Person();
@@ -32,6 +33,7 @@ public class PersonTest {
 		System.out.println(p2.name);
 		System.out.println(p2.age);
 		System.out.println(p2.phone);
+		p2.greet();
 
 	}
 

@@ -8,5 +8,9 @@ public class Person {
 	
 	long phone;
 	
+	public void greet()
+	{
+		System.out.println("Hi "+name+"...good morning ..");
+	}
 
 }

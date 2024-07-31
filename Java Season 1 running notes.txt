@@ -719,3 +719,37 @@ Integer i=10;
 no syntax used by JVM 
 
 
+-----------------------------------------------
+Encapsulation
+-----------------------------------------------
+
+Encapsulation in Java is a process of wrapping code and data together into a single unit,
+ for example, a capsule which is mixed of several medicines.
+ 
+ 
+ Encapsulation in Java is a mechanism of 
+ wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+ 
+ 
+	Encapsulation =	Data hiding  + Abstraction
+	
+	
+	The field Bank.balance is not visible
+	
+	
+PrintStream  : 4 methods 
+
+
+print(    ==> this will print and cursor stays in same line 
+
+* * * * * 
+* * * *
+* * *
+* *
+*
+
+println(  ==> this will print and cursor moves to new line 
+
+printf(  ==> to do some formating to the output but cursor stays in same line  
+
+format(	 ==>  to do some formating to the output but cursor stays in same line  
