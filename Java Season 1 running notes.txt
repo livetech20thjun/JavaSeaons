@@ -753,3 +753,80 @@ println(  ==> this will print and cursor moves to new line
 printf(  ==> to do some formating to the output but cursor stays in same line  
 
 format(	 ==>  to do some formating to the output but cursor stays in same line  
+
+*****************************************************
+Polymorphism
+******************************************************
+
+poly means many 
+
+morph means forms 
+
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (int, int, int)
+
+
+										Polymorphism
+										
+										
+					Static									Dynamic
+					  or
+					Compile time							Runtime 
+					  or 
+					Early Binding							Late Binding
+					
+					
+					
+					
+									Compile time Polymorphism
+									
+									
+						Operator  Overloading 						Method Overloading
+							(java doesn't support)
+									
+										
+										
+	==> Runtime polymorphism can be achived by Method over riding (this will be discussed after inheritance topic)
+	
+	
+terminology :
+
+method signature : methodName + arguments/parameters	
+	
+Method Overloading :
+
+In Same class 
+- same method name with chnage in data types 
+- same method name with change in no of arguments/parameters
+
+??????????????????????????????????????????????????????
+Assignment - 6
+
+
+write a program using method overloading to 
+generate aadhar card 
+
+inputs can be String voterId or passportNo or panCard
+
+hint to genrate 4 digit number 
+
+System.out.println((int)(Math.random()*10000));
+
+????????????????????????????????????????????????????????
+
+0.0056123457987897
+
+0056
+
+
+*************************************
+Constructors :
+*************************************
+
+
+	
+										
+										
