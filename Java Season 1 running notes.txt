@@ -826,6 +826,42 @@ System.out.println((int)(Math.random()*10000));
 Constructors :
 *************************************
 
+Constructor is a method in class having same as ClassName 
+
+rules :
+
+1) constructor should be same as ClassName(Case Sensitive) 
+2) constructors doesn't have return-type
+Q: what happens if we declare a return-type
+Ans : that method will be no more a constructor 
+instead it will be retreated as normal or conrete method
+
+3) No access-modifier 
+
+Q: what happens if we declare a access-modifier
+
+Ans: compilation error
+
+Illegal modifier for the constructor in type Clock; only public, protected & private are permitted
+
+									Constructors
+									
+									
+				default								parameterized constructors
+				  or
+				non-parameterized
+				
+				
+************************************
+Inheritence
+*************************************
+Inheritance in Java is a mechanism in which one object 
+acquires all the properties and behaviors of a parent object.		
+
+		
+				
+				
+									
 
 	
 										
