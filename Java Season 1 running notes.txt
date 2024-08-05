@@ -858,9 +858,30 @@ Inheritence
 Inheritance in Java is a mechanism in which one object 
 acquires all the properties and behaviors of a parent object.		
 
-		
+Method Overriding :
+
+
+
+*******************************
+Abstraction 
+*******************************
+
+									Abstraction
+									
+									
+									
+				Abstract Class							Interfaces
+				( 0 to 100 %) 							100 % 
+									
 				
-				
+Abstract Class : 
+
+
+Abstract method 
+
+access-specifier abstract return-type methodName(arguments);
+
+Cannot instantiate the type Numbers				
 									
 
 	
