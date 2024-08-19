@@ -2,8 +2,8 @@ package aug2nd;
 
 public class Student {
 	
-	int rollNo;
-	String sNa;
+	public int rollNo;
+	public String sNa;
 	
 	public void setDetails(int rollNo,String sNa)
 	{

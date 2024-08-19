@@ -911,4 +911,155 @@ access-specifier modifier interface InterfaceName
 }
 
 										
+*******************************************************************
+Season 2 - Java 
+******************************************************************
+Arrays : 
+
+int x=10;
+int y=20;
+String s="Livetech"
+
+Array is a indexed collection of homogenous data types elements having fixed length 
+
+
+Arrays declaration 
+
+access-specifier modifier datatype[] arrayName;  //declaration
+
+arrayName= { value1,value2 ...valuen}; //initialization  or assignment
+
+int[] a;
+a={10,20,30,40,50,61,75,85,91,100};
+
+how to retrieve items or elements in an array ?
+
+using index 
+
+for e.g if i want to retrive 61 
+
+then a[5] here 5 is the index 
 										
+										
+										Second way of array initialization :
+										
+	using new operator 
+	
+datatype[] arrayName=new datatype[length];
+
+int[] a=new int[10];
+
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 10
+	at aug13th.ArraysDemo2.main(ArraysDemo2.java:26)
+	
+										
+Disadvantages of aarrays :
+
+1. Arrays doen't have growable nature 
+
+2. Arrays doesn't store hetrogenous or dismilar data types 
+
+3. Arrays doesn't have predefined methods or algorithms 										
+										
+
+*************************************
+Collections in java 
+*************************************
+It's an API or framework 
+
+									Iterable (I)
+									   |
+									Collection(I)
+									   |
+				List(I)				Queue(I)			Set(I)
+			- ArrayList(c)							 - HashSet(c)	
+			- LinkedList(c)							 - LinkedHashSet(C)
+			- Vector								 - SortedSet(I)
+			- Stack 								 - TreeSet(c)
+			
+findElements(By):List<WebElement>
+
+getWindowHandles():Set<String> 		
+
+a[0]=10;
+
+s[0]=new Student();
+
+----------------------------------
+Methods in Collection (I) 
+----------------------------------
+java.util 
+
+iterator():Iterator<T> 
+
+add(E):boolean 
+
+addAll(Collection<? extends E>):boolean 
+
+size():int 
+
+contains(Object):boolean 
+
+isEmpty():boolean
+
+remove(Object):boolean
+
+--------------------------------------
+ArrayList(C)
+--------------------------------------
+
+is also called as Indexed collection or Ordered collections 
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+add(int, E):void 
+
+get(int):E 
+
+List al=new ArrayList();
+
+
+---------------------------------
+HashSet(C)
+---------------------------------
+
+is unordered collection 
+
+HashSet()
+HashSet(int)
+HashSet(int, float)
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
+
+new HashSet();
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				
+									
+									
+									
+							
+									
