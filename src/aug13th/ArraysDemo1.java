@@ -8,6 +8,8 @@ public class ArraysDemo1 {
 		
 		System.out.println("no of items inn array "+a.length);
 		
+		System.out.println(a);
+		
 		System.out.println(a[0]);
 		System.out.println(a[1]);
 		System.out.println(a[2]);
