@@ -1037,18 +1037,76 @@ HashSet(Collection<? extends E>)
 
 new HashSet();
 
+for loop :
+
+for(intialization;condition check;increment or decrement)
+{
+
+// statements 
+
+}
+
+for-each or enhanced for loop : 
+
+for(Datatype temp:arrayName or CollectionName)
+{
+
+use temp which will retrieve element 
+
+}
 
 
+-----------------------------
+Iterator 
 
-
+hasNext() : boolean ==> this will check is there any element in next level 
+next() : E ==> 
 
 
  
+ *********************************************
+ Exception Handling
+ *********************************************
+ 
+ Exception is a runtime error 
+ 
+ 
+								Exception
+								
+								
+			Checked Exceptions					UnCheckedExcpetion
+
+			
+								
+ Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at aug21st.ExceptionDemo1.main(ExceptionDemo1.java:17)
+
+ 
+ 
+
+try  is block where risky code can be written 
+
+catch
+
+finally
+
+throw 
+
+throws 
 
 
 
 
+try
+{
+//risky code 
 
+}
+catch(ExcpetionName reference)
+{
+
+//handling or user friendly message 
+}
 
 
 
