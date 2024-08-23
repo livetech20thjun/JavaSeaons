@@ -1108,16 +1108,45 @@ catch(ExcpetionName reference)
 //handling or user friendly message 
 }
 
+finally
+{
+//compulsory code execution
+
+}
 
 
+try catch
 
+try-finally 
 
+try-catch-finally 
+
+try-catch-catch-finally
+
+Unreachable catch block for ArithmeticException. It is already handled by the catch block for Exception
+
+follow Hiererchy 
+
+Bottom to top 
 
 
 	
-				
+Checked Exceptions : excpetions which are found by compiler 
+
+UnChecked Exceptions : 	excpetions which are not found by compiler	but JVM finds it during runtime 
 									
-									
-									
+-----------------------------------
+Methods in Throwable 
+____________________________________
+
+getMessage():String 
+
+printStackTrace():void ==> this will print the trace of exceptionin console 									
 							
 									
+*********************
+throw 
+
+is to throw a userdefined or custome exceptionin
+
+Implicit super constructor Runtime() is not visible for default constructor. Must define an explicit constructor									

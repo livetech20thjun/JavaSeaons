@@ -22,8 +22,23 @@ public class ExceptionDemo1 {
 		}
 		catch(ArithmeticException e)
 		{
+			System.out.println(e.getMessage());
 			System.out.println("Please Enter non-zero value for y");
 		}
+		catch(NullPointerException ne)
+		{
+			
+		}
+		catch(Exception obj)
+		{
+			
+		}
+		finally
+		{
+			
+		}
+	
+		
 		
 		System.out.println("End of Program..");
 
